@@ -1,0 +1,40 @@
+﻿Build started 2019/3/31 19:59:14.
+     1>Project "C:\Users\李飞飞\Documents\Visual Studio 2013\Projects\maze\maze.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\DXF\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Maze.cpp MazeStack.cpp client.cpp
+         Maze.cpp
+         Generating Code...
+         Compiling...
+         MazeStack.cpp
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(3): error C2653: 'MazeStack' : is not a class or namespace name
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(4): error C2550: 'MazeStack' : constructor initializer lists are only allowed on constructor definitions
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(5): error C2065: 'mpstack' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(5): error C2061: syntax error : identifier 'MazeNode'
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(6): warning C4508: 'MazeStack' : function should return a value; 'void' return type assumed
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(8): error C2653: 'MazeStack' : is not a class or namespace name
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(10): error C2065: 'msize' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(11): error C2065: 'mcur' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(12): error C2065: 'mpstack' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(12): error C2061: syntax error : identifier 'MazeNode'
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(13): warning C4508: 'MazeStack' : function should return a value; 'void' return type assumed
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(14): error C2653: 'MazeStack' : is not a class or namespace name
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\mazestack.cpp(14): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+         Compiling...
+         client.cpp
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(5): error C2065: 'cout' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(7): error C2065: 'cin' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(8): error C2065: 'Maze' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(8): error C2146: syntax error : missing ';' before identifier 'maze'
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(8): error C3861: 'maze': identifier not found
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(9): error C2065: 'maze' : undeclared identifier
+     1>c:\users\李飞飞\documents\visual studio 2013\projects\maze\client.cpp(9): error C2228: left of '.run' must have class/struct/union
+                 type is 'unknown-type'
+         Generating Code...
+     1>Done Building Project "C:\Users\李飞飞\Documents\Visual Studio 2013\Projects\maze\maze.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93
